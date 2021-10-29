@@ -1,0 +1,139 @@
+#hero4 {
+	height: 100vh;
+	color: #fff;
+
+}
+#hero4 h1{
+	color: #313131;
+	font-weight: bold;
+	font-size: 5rem;
+	opacity: 0.12;
+	margin-top: 3rem;
+    margin-bottom: 3rem;
+	text-align: center;
+}
+#hero4 .container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#hero4 .contactForm{
+	width: 80%;
+	padding: 35px;
+	background: #fff;
+	box-shadow: 0 1.5px 12.5px 0 rgba(0, 0, 0, 0.16);
+	border-radius: 7.5px; 
+	float: right;
+}
+#hero4 .inputBox{
+	position: relative;
+	width: 100%;
+	margin: 5px;
+}
+#hero4 input, textarea {
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 5px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+#hero4 span{
+	position: absolute;
+	left: 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 5px 0;
+}
+
+#hero4 .inputBox input:focus ~ span,
+#hero4 .inputBox input:valid ~ span,
+#hero4 .inputBox textarea:focus ~ span,
+#hero4 .inputBox textarea:valid ~ span
+{
+	color: #ff857d;
+	font-size: 12px;
+	transform:translateY(-20px);
+}
+#hero4 input[type="submit"]
+{
+	width: 100px;
+	background:#ff9873;
+	border-radius: 7.5px;
+	border:none;
+	cursor: pointer;
+	color: #fff;
+	padding: 10px;
+	font-size: 18; 
+}
+/*Right side*/
+#hero4 .contactusInfo{
+	position: relative;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+#hero4 .contactusInfo h4{
+	color: #ff8a7a;
+	font-size: 15.5px;
+	margin: 0 163px 9.5px 0;
+}
+
+#hero4 .contactusInfo h2{
+	color: #0c0c0c;
+	font-weight: bold;
+	font-size: 1.8rem;
+	
+}
+
+#hero4 .contactusInfo p{
+	color: #767676;
+	
+	font-size: 11px;
+	width: 17rem ;
+}
+#hero4 .contactusInfo .btn{
+	background: #ff9873;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+	/* For Tablet: */
+	#hero4{
+		height: 162vh;
+	}
+	#hero4 .contactForm{
+		width: 60%;
+		float: none;
+	}
+}	
+@media only screen and (max-width: 425px) {
+	/* For mobile phones: */
+	#hero4{
+		height: 157vh;
+	}
+	#hero4 h1{
+		font-size: 3rem;
+	}
+	#hero4 .contactForm{
+		float: none;
+		margin-left: 32px;
+		width: 80%;
+	}
+	#hero4 .contactusInfo{
+		padding: 0px;
+	}
+	#hero4 .contactusInfo h4{
+		margin:0;
+		margin-top: 18px;
+	}
+}	

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="49" viewBox="0 0 55 49">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9276"/>
+      <stop offset="1" stop-color="#ff857d"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_1">
+      <rect width="55" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="55" height="49" fill="#fff"/>
+    <g id="adaptive" transform="translate(0 -26)">
+      <path id="Path_23" data-name="Path 23" d="M48.163,43.049V27.6a1.6,1.6,0,0,0-1.6-1.6H1.6A1.6,1.6,0,0,0,0,27.6v25.04H35.376V47.844a4.8,4.8,0,0,1,4.795-4.795Z" fill="url(#linear-gradient)"/>
+      <path id="Path_24" data-name="Path 24" d="M0,313.992a1.6,1.6,0,0,0,1.6,1.6H35.376V306H0Z" transform="translate(0 -250.165)" fill="url(#linear-gradient)"/>
+      <path id="Path_25" data-name="Path 25" d="M153.582,429.2h-1.6V426H139.2v3.2h-1.6a1.6,1.6,0,0,0,0,3.2h15.983a1.6,1.6,0,0,0,0-3.2Z" transform="translate(-121.508 -357.378)" fill="url(#linear-gradient)"/>
+      <path id="Path_26" data-name="Path 26" d="M376.385,216H363.6a1.6,1.6,0,0,0-1.6,1.6v25.573a1.6,1.6,0,0,0,1.6,1.6h12.787a1.6,1.6,0,0,0,1.6-1.6V217.6A1.6,1.6,0,0,0,376.385,216Zm-6.393,23.975a1.6,1.6,0,1,1,1.6-1.6A1.6,1.6,0,0,1,369.992,239.975Z" transform="translate(-323.427 -169.754)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

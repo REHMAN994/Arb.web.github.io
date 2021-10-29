@@ -1,0 +1,171 @@
+#hero2 {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  /*background-attachment: fixed*/
+}
+
+#hero2 h1{
+  color: #313131;
+  font-weight: bold;
+  font-size: 5rem;
+  opacity: 0.07;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+/*Services Cards*/
+#hero2 .card-One{
+  
+  height: 10rem;
+  background-color: #ff857d;
+  box-shadow: 0 1.5px 12.5px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 7.5px;
+  padding: 8.7px 5.5px 11px 5.5px;
+  float: right;
+  margin-top: -86px auto ;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+#hero2 .c-heading{
+  color: #fff;
+  font-size: 6px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 1px;
+}
+#hero2 .card-bodyy{
+  
+  align-items: center; 
+}
+#hero2 .card-text{
+  color: #fff;
+  text-align: center;
+  font-size:9px;
+  width: 9rem;
+
+}
+/*Card Two*/
+#hero2 .card-two {
+  /* width: 10rem; */
+  height: 10rem;
+  background-color: #fff;
+  box-shadow: 0 1.5px 12.5px 0 rgb(0 0 0 / 16%);
+  border-radius: 7.5px;
+  padding: 8.7px 5.5px 11px 5.5px;
+  /* margin: 1rem; */
+  margin-top: -20px;
+  margin-bottom: 35px;
+  float: right;
+}
+#hero2 .card-twoo {
+  /* width: 10rem; */
+  height: 10rem;
+  background-color: #fff;
+  box-shadow: 0 1.5px 12.5px 0 rgb(0 0 0 / 16%);
+  border-radius: 7.5px;
+  padding: 8.7px 5.5px 11px 5.5px;
+  /* margin: 1rem; */
+  margin-top: -20px;
+  margin-bottom: 12px;
+  float: right;
+}
+
+#hero2 .card-two .c-heading{
+  color: #000000;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 4px;
+}
+#hero2 .card-twoo .c-heading{
+  color: #000000;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 4px;
+}
+
+#hero2 .card-textt{
+  color: #000;
+  text-align: center;
+  font-size:9px;
+  width: 9rem;
+}
+
+
+/*Services Cards End*/
+
+#hero2 h4{
+  font-size: 1.2rem;
+}
+
+#hero2 h2{
+  color: #ff8c7a;
+   margin: 1px 0 13.5px 1px;
+   font-size: 1.6rem
+}
+
+#hero2 p{
+  color: #767676;
+  
+  font-size: 11px;
+  
+}
+
+#hero2 .btn{
+  background: #ff9873;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+	/* For Tablet phones: */
+	#hero2{
+		height: 155vh;
+   
+	}
+}
+@media only screen and (max-width: 425px) {
+	/* For mobile phones: */
+	#hero2 h1{
+		font-size: 3rem;
+    margin-bottom: 5%;
+	}
+  #hero2{
+		height: 147vh;
+	}
+  #hero2 .card-One{
+    margin-top: 0px;
+    margin-right: 12px;
+  }
+  #hero2 .card-two{
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  #hero2 .card-twoo{
+    margin-top: 0px;
+    margin-right: 12px;
+  }
+}  
+@media only screen and  (max-width: 363px){
+  #hero2 .card-One{
+   margin-right: 85px;
+  }
+  #hero2 .card-two{
+    margin-right: 80px;
+    margin-bottom: 15px;
+  }
+  #hero2 .card-twoo{
+    margin-right: 80px;
+  }
+  #hero2 {
+    height: 217vh;
+  }
+ 
+}
+  

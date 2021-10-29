@@ -1,0 +1,89 @@
+/*About Us*/
+#hero1{
+	height:80vh ;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+} 
+
+#hero1 h1{
+	color: #313131;
+	font-weight: bold;
+	font-size: 5rem;
+	opacity: 0.12;
+	margin-top: 4rem;
+	text-align: center;
+
+}
+#hero1 .asd{
+	position: relative;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	
+}
+.content-aboutUs{
+	width: 50%;
+	/*padding: 35px;*/
+	
+}
+
+#hero1 .aboutus-pix {
+	
+    margin-top: 2rem;
+    float: right;
+}
+
+#hero1 h4{
+	color: #ff8a7a;
+	font-size: 15.5px;
+	/*margin: 0 163px 9.5px 0;*/
+}
+
+#hero1 h2{
+	color: #0c0c0c;
+	font-weight: bold;
+	font-size: 26px;
+	
+}
+
+#hero1 p{
+	color: #767676;
+	
+	font-size: 11px;
+	/*width: 16rem */;
+}
+#hero1 .btn{
+	background: #ff9873;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For Tablet phones: */
+	#hero1{
+		height: 90vh;
+	}
+}
+@media only screen and (max-width: 425px) {
+	/* For mobile phones: */
+	#hero1 h1{
+		font-size: 3rem;
+	}
+	#hero1{
+		height: 152vh;
+	}
+	#hero1 .aboutus-pix{
+		float: none;
+		margin-left: 35px;
+	}
+}
+@media only screen and (max-width: 363px) {
+	#hero1{
+		height: 170vh;
+	}
+}

@@ -1,0 +1,85 @@
+/*Web Desing*/
+#hero6{
+	height:95vh ;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+} 
+
+#hero6 h1{
+	color: #313131;
+	font-weight: bold;
+	font-size: 5rem;
+	opacity: 0.12;
+	margin-top: 2rem;
+	text-align: center;
+
+}
+#hero6 .asd{
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	margin-top: 5rem;
+}
+
+
+#hero6 h2{
+	color: #ff8a7a;
+	font-weight: bold;
+	font-size: 36px;
+	
+}
+
+#hero6 p{
+	color: #767676;
+	
+	font-size: 11px;
+	/*width: 16rem */;
+}
+#hero6 .btn{
+	background: #ff9873;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+#hero6 img{
+    border-radius: 30px;
+    overflow:hidden;
+    height: 26rem;
+    transform:matrix(-1, 0, 0, 1, 0, 0);
+}
+#hero6 .carousel-item{
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For Tablet phones: */
+	#hero6 img{
+		height: 23rem;
+	}
+    #hero6 .asd{
+        margin-top: 2rem;
+    }
+    #hero6 .carousel-item{
+        width: 70%;
+    }
+   
+}
+
+@media only screen and (max-width: 425px) {
+	/* For Mobile */
+    #hero6 h1{
+        font-size: 3rem;
+    } 
+    #hero6 {
+        height: 168vh;
+    }
+    #hero6 .right{
+        margin-left: 20%;
+    }
+
+}

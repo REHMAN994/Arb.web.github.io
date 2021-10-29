@@ -1,0 +1,61 @@
+#hero5 {
+	background-size: cover;
+	background-position: center;
+	background: #ff857d;
+ 	color:white;
+  	margin: 0px auto;
+    height: 50vh;  
+}
+#hero5 .container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#hero5 .links
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      
+    }
+  
+#hero  .about-company
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      
+    }
+ 
+  .location
+    i{font-size: 18px;}
+  
+  .copyright p{border-top:2px solid rgba(255,254,254, 45%) ;} 
+
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+    #hero5{
+      height: 100vh;
+    }
+}
+@media only screen and (max-width: 768px) {
+  /* For tablet: */
+  #hero5{
+    height: 117vh;
+  }
+}
+
+@media only screen and  (width: 320px){
+  #hero5
+  {
+    height: 124vh;
+  }
+  
+}
+@media only screen and (width: 1024px) {
+  /* For mobile phones: */
+  #hero5{
+    height: 57vh;
+  }
+}

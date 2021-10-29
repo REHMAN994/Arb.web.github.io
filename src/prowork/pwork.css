@@ -1,0 +1,68 @@
+#hero3 {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*background-attachment: fixed;*/
+}
+#hero3 h1{
+	color: #767676;
+	font-weight: bold;
+	font-size: 5rem;
+	opacity: 0.17;
+	margin-top: 2rem;
+	text-align: center;
+}
+#hero3 .service1{
+	float: right;
+	
+	
+}
+#hero3 h3{
+	color: #fff;
+	font-size: large;
+
+}
+#hero3 p{
+	color: #fff;
+	width: 13rem;
+	font-size: 14px;
+}
+#hero3 .service2{
+	margin-left: 8rem;
+}
+#hero3 .service3{
+	margin-left: 6rem;
+	
+}
+#hero3 .service4{
+	
+	float: right  ;
+}
+@media only screen and (max-width: 768px) {
+	/* For Tablet: */
+	#hero3{
+		height: 111vh;
+	}
+}	
+@media only screen and (max-width: 425px) {
+	/* For mobile phones: */
+	#hero3{
+		height: 137vh;
+	}
+	#hero3 h1{
+		font-size: 3rem;
+	}
+	#hero3 .service1 {
+		float: none;
+	}
+	#hero3 .service2 {
+		margin-left: 0rem;
+	}
+	#hero3 .service3 {
+		margin-left: 0rem;
+	}
+	#hero3 .service4 {
+		float: none;
+	}
+}
